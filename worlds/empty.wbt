@@ -1,0 +1,18 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.8982897176319822 0.4256924298706403 0.10891068977599808 0.49202717303409005
+  position 0.3387468594566896 1.4643171975429639 2.8209864813131453
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 1.5 1.5
+}
+E-puck {
+  controller "Lead_Car"
+}
