@@ -16,5 +16,6 @@ MOTOR_RIGHT = robot.getDevice('right wheel motor')
 cam = robot.getDevice('good_camera')
 cam.enable(timestep)
 cam.recognitionEnable(timestep)
+#cam.
 while robot.step(timestep) != -1:
    pass
