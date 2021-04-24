@@ -41,7 +41,7 @@ while robot.step(timestep) != -1:
         vL = MAX_SPEED
         vR = -MAX_SPEED
     elif key == ord('W'):
-        print("W is being pressed")
+        #print("W is being pressed")
         vL = MAX_SPEED
         vR = MAX_SPEED
     elif key == ord('S'):

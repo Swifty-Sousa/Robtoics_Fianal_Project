@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.8982897176319822 0.4256924298706403 0.10891068977599808 0.49202717303409005
-  position 0.3387468594566896 1.4643171975429639 2.8209864813131453
+  orientation 0.9596469539798993 0.27242981576730985 0.06971168623760778 5.685542322052044
+  position -0.4202202810572711 1.6150828867488098 2.3044996656231
 }
 TexturedBackground {
 }
@@ -14,5 +14,35 @@ RectangleArena {
   floorSize 1.5 1.5
 }
 E-puck {
+  translation 0.301309 6.43929e-15 0.0187963
   controller "Lead_Car"
+}
+Can {
+  translation -0.496741 0.06 -0.266113
+}
+E-puck {
+  translation -0.479635 0 -0.00632107
+  name "Follower_Car"
+  controller "Follower_Car"
+  supervisor TRUE
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+  turretSlot [
+    Camera {
+      name "good_camera"
+      recognitionColors [
+        0.5 0 0
+      ]
+      width 640
+      height 480
+      recognition Recognition {
+        maxRange 1000
+        maxObjects 1
+        frameColor 0 1 0
+        segmentation TRUE
+      }
+    }
+  ]
 }
