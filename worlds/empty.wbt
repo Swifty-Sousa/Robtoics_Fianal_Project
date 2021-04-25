@@ -44,7 +44,7 @@ E-puck {
   ]
 }
 E-puck {
-  translation -0.516557 2.22045e-16 0.311176
+  translation -0.515366 2.22045e-16 0.276113
   rotation 0 -1 0 0.019635
   controller "Lead_Car"
   turretSlot [
